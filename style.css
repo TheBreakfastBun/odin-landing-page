@@ -1,4 +1,8 @@
 
+*{
+    font-family: "Roboto";
+}
+
 body{
     display: flex;
     flex: 1 1 auto;
@@ -107,15 +111,6 @@ button{
     color: #F9FAF8;
 }
 
-
-
-
-
-
-
-
-
-
 .cards{
     display: flex;
     flex: auto;
@@ -123,7 +118,6 @@ button{
 }
 
 .card-container{
-    border: 2px solid red;
     display: flex;
     flex: auto;
     flex-direction: column;
@@ -133,7 +127,6 @@ button{
 .information-header, .card-content{
     display: flex;
     flex: auto;
-    border: 2px solid greenyellow;
 }
 
 .information-header{
@@ -152,48 +145,42 @@ button{
     flex-direction: column;
     width: 150px;
     color: #1F2937;
+    padding: 20px;
 }
 
 .card{
    border: 3px solid #3882F6;
    height: 150px;
-   border-radius: 3px; 
+   border-radius: 15px; 
 }
 
 
+.quote{
+    padding: 100px;
+}
 
+.quote-container{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
 
+.quote-author{
+    align-self: flex-end;
+}
 
+.quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.quote-author{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1F2937;
+}
 
 .quote{
     background-color:#E5E7EB;
@@ -201,16 +188,50 @@ button{
     flex: auto;
 }
 
+
 .sign-up{
-    border: 2px solid  #1F2937;
     display: flex;
     flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
+
+.sign-up-container{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 15px; 
+    width: 100%;
+}
+
+.content-container{
+    display: flex;
+    flex: auto;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.sign-up-section{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.sign-up-btn{
+    border: 2px solid #E5E7EB;
+}
+
 
 .footer{
     background-color: #1F2937;
     display: flex;
     flex: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 
